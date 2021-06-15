@@ -1,0 +1,73 @@
+  /* 文字样式 start */
+  /* 默认 */
+  .tabel_font_default {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+  }
+  /* 蓝色 */
+  .tabel_font_blue {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0381FF;
+  }
+  /* 绿色 */
+  .tabel_font_green {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4CBE6C;
+  }
+   /* 橙色 */
+   .tabel_font_orange {
+    font-size: 18px;
+    font-weight: bold;
+      color: #FF9F1C;
+  }
+  /* 红色 */
+  .tabel_font_red {
+    font-size: 18px;
+    font-weight: bold;
+    color: #FF0000;
+  }
+  /* 白色 */
+  .tabel_font_white {
+    font-size: 18px;
+    font-weight: bold;
+    color: #FDFFFC;
+  }
+  /* 浅灰色 */
+  .tabel_font_grey {
+    font-size: 18px;
+    font-weight: bold;
+    color: #8D99AE;
+  }
+
+  /* 文字样式 end */
+
+
+   /* 二级标题 */
+ .two_title {
+    font-size: 24px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #000000;
+    line-height: 90px;
+    padding-left: 29px;
+  }
+  
+    /* 首行缩进二级标题*/
+  .two_indent_title {
+      width: 95%;
+      margin-left: 56px;
+      font-size: 22px;
+      font-family: Source Han Sans CN;
+      font-weight: bold;
+      color: #494949;
+      line-height: 75px;
+  }
+
+
+  /* 超链接 start */
+
+  /* 超链接 end */
+ 

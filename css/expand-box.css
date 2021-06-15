@@ -1,0 +1,43 @@
+/* 大盒子边框阴影*/
+.max_box_ra {
+    border-radius: 8px;
+    background: #F0F0F0;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  /* 小盒子边框阴影 */
+  .min_box_ra {
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  /* 表格 start */
+  .table_box_s {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  
+  .table_head_s {
+    height: 73px;
+    background: #BFE5FF;
+    font-size: 22px;
+    font-family: Source Han Sans CN;
+    font-weight: bold;
+    color: #494949;
+  }
+  
+  .table_body_s {
+    height: 73px;
+    background: #F0F0F0;
+    font-size: 18px;
+    font-family: Source Han Sans CN;
+    font-weight: bold;
+    color: #494949;
+  }
+  
+  .table_box_s td {
+    border: 2px solid white;
+  }
+  /* 表格 end */

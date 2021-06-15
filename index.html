@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>样式测试</title>
+    <link rel="stylesheet" href="./expand.css">
+    <style>
+        .box {
+            width: 200px;
+            height: 300px;
+        }
+        .box_box {
+            width: 300px;
+            height: 300px;
+            border: 1em solid transparent;
+            background: linear-gradient(white, white) padding-box,
+            repeating-linear-gradient(-45deg, red 0, red 12.5%, transparent 0, transparent 25%,
+                #58a 0, #58a 37.5%, transparent 0, transparent 50%) 0 / 6em 6em;
+        }
+    </style>
+</head>
+<body>
+    <div class="min_box_ra box"></div>
+    <p class="tabel_font_blue p_relative"><span class="bar_title">测试</span></p>
+    <div class="room">
+        <p>
+            <span>测试</span>
+            <span>测试</span>
+            <span>测试</span>
+            <span>测试</span>
+        </p>
+        
+        <table class="table_box_s">
+            <thead class="table_head_s">
+                <tr>
+                    <td class="icon_leftFont">标题1</td>
+                    <td>标题2</td>
+                    <td>标题3</td>
+                </tr>
+            </thead>
+            <tbody class="table_body_s">
+                <tr>
+                    <td>内容1</td>
+                    <td>内容2</td>
+                    <td>内容3</td>
+                </tr>
+                <tr>
+                    <td>内容1</td>
+                    <td>内容2</td>
+                    <td>内容3</td>
+                </tr>
+                <tr>
+                    <td>内容1</td>
+                    <td>内容2</td>
+                    <td>内容3</td>
+                </tr>
+                <tr>
+                    <td>内容1</td>
+                    <td>内容2</td>
+                    <td>内容3</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="box_box"></div>
+</body>
+</html>
